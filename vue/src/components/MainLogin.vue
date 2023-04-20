@@ -3,14 +3,12 @@
       
           <p calss="para zoom">More Time Eating!</p>
           <p class="para">"Effortlessly plan, cook, and enjoy deliciously healthy meals<br> with Meal Planner - your one-stop solution for mealtime bliss!"</p>
-          <!-- <img class="logo" src="..\assets\cropped-logo.png" alt="Logo"> -->
          <div class="img">
     <img src="..\assets\1M.png" alt="Pot Roast" class="two">
       </div>
     <div class="last">
         <img class= "lastimg img1" src="..\assets\M4.png" alt="meals" />
          <img  class="roast img1" src="..\assets\M9.png" alt="meals" />
-        <!-- <img class="img1 lastimg" src="..\assets\M2.jpg" alt="meals" /> -->
         <img class="img1 lastimg" src="..\assets\M6.png" alt="meals" />
        
        
@@ -36,7 +34,6 @@ export default {
     
 }
 div p{
-    /* text-align: center; */
      font-family: "Brush Script MT", cursive; 
      font-size: 44px;
      font-weight:700;
@@ -47,17 +44,6 @@ div p{
 .para{
     font-size: 16px;
 }
-/* p .logo{
-    display: inline-block;
-} */
-/* .logo{
-    max-width: 150px;
-    border-radius: 50%;
-    box-shadow: #FC0 1px 0 10px;
-    /* margin-left:200px; 
-}  
-*/
-
 .img{
     max-width:200px;
     max-height:400px;
@@ -83,7 +69,6 @@ div img{
     display: inline-block;
 }
 p:hover{
-      /* transform: scale(0.5); */
       color:rgb(99, 238, 87);
 }
 </style>

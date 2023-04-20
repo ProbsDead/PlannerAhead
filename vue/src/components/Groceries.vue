@@ -79,8 +79,6 @@ export default {
         this.$route.params.userId,
         this.addedgroceries
       );
-      // this.pageloadingmethod();
-      // this.addItemsTogether();
       location.reload();
     },
     pageloadingmethod() {
@@ -169,7 +167,6 @@ export default {
   opacity: 0.9;
   font-size: 1.1em;
   padding-left: 5%;
-  /* filter: brightness(95%); */
 }
 h2 {
   text-align: center;
